@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+celery = "*"
+flower = "*"
+django-celery-beat = "*"
+django = "==1.11"
+deploy = "*"
+werkzeug = "*"
+"psycopg2" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
